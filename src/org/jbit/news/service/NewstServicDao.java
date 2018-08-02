@@ -18,8 +18,6 @@ public interface NewstServicDao {
 	int deleteTop(int tid) throws SQLException;
 	int addTop(String tname) throws SQLException;
 	int updateTop(Topic topic) throws SQLException;
-
-	//ssssss
 	
 	News_users login(News_users nu) throws SQLException;
 	
